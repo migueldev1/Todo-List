@@ -21,7 +21,7 @@ Uma aplicação de lista de tarefas feita com **HTML**, **CSS** e **JavaScript p
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/migueldev1/Todo-list.git
 
 ##
 
