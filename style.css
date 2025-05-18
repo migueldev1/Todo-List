@@ -1,0 +1,121 @@
+body{
+    background-color:rgb(214, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;      
+    
+}
+
+.container{
+    overflow: hidden;
+    width: 75%;
+    height: 85vh;
+    margin: auto;
+    background-color: rgb(109, 80, 64);
+    border-radius: 15px;
+    box-shadow: dimgray 0px 0px 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.container-inner-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#taskInput{
+    font-size: 15px;
+    padding: 20px 130px;
+    width: 100%;
+    padding-left: 7%;
+}
+
+#addTaskBtn{
+    padding: 22px 30px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#addTaskBtn:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    transform: translateY(-2px);
+    transition: all 0.2s;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: auto auto;
+    padding-top: 25px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 2%;
+    cursor: pointer;
+    
+}
+
+.item-icon{
+    flex: 10%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.item-name{
+    flex: 75%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-button{
+    flex: 13%;
+}
+
+.delete-btn{
+    background: red;
+    color: white;
+    border: none;
+   height: 60px;
+   width: 100%;
+   cursor: pointer;
+}
+
+.mdi-check-circle{
+    color: green;
+}
+
+.item.clicked{
+    background: #d4edda;
+}
+
+.item.clicked .item-name{
+    text-decoration: line-through;
+    color: #6c757d;
+}
